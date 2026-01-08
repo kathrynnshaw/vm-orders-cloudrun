@@ -6,4 +6,4 @@ steps:
     args: ["build", "-t", "europe-west2-docker.pkg.dev/harry-ramsden-analytics/vmorders/vm-orders:latest", "."]
 
 images:
-  - "europe-west2-docker.pkg.dev/$PROJECT_ID/vm-orders/vm-orders:latest"
+  - "europe-west2-docker.pkg.dev/harry-ramsden-analytics/vmorders/vm-orders:latest"
