@@ -3,7 +3,7 @@ options:
 
 steps:
   - name: "gcr.io/cloud-builders/docker"
-    args: ["build", "-t", "europe-west1-docker.pkg.dev/$PROJECT_ID/vm-orders/vm-orders:latest", "."]
+    args: ["build", "-t", "europe-west2-docker.pkg.dev/harry-ramsden-analytics/vmorders/vm-orders:latest", "."]
 
 images:
   - "europe-west1-docker.pkg.dev/$PROJECT_ID/vm-orders/vm-orders:latest"
